@@ -1,0 +1,31 @@
+# This is the file that allows for configurations within the lint check tests
+# ran through the GitHub Actions Workflow (ci.yml).
+
+# ** NOTE **
+# IF YOU DO NOT KNOW WHAT BLACK IS, LOOK AT pyproject.toml
+
+# The max-line-length is pretty self-explanatory... This setting specifies the
+# maximum allowed length for a line of code. If it exceeds the value below, 
+# flake8 will raise a warning during the lint check test.
+
+# The extend-ignore values allows us to supress specific warning codes that
+# flake8 typically reports. We're doing this to align with black and for sanity sake.
+
+# E203 --> Whitespace before :
+# ignoring this warning helps maintain compatability with black's formatting style
+
+# E266 --> Too many leading # characters for block comments
+# ignoring this allows for more flexibility in comment formatting
+
+# E501 --> Line too long
+# we've already set a custom max-line-length so ignored to prevent conflicts
+
+# W503 --> Line break before a binary operator
+# ignoring because it conflicts with black's preferred formatting style
+
+# E402 --> Imports at top of files
+# ignoring so I can get the github workflow operating
+
+[flake8]
+max-line-length = 150
+extend-ignore = E203, E266, E501, W503, E402
