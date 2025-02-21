@@ -1,13 +1,4 @@
 # GradeBuddy
-_main-project-gradebuddy created by GitHub Classroom_
-
-Group 16 Members: Catie Schultz (cschu20), Arunima Suri (suri7), Alisha Virani (avirani3), Kori Williams (koribw2)
-
-Frontend: Catie and Alisha
-
-Backend: Arunima and Kori
-
-
 **What is GradeBuddy and Why did we build it?:**
 
 GradeBuddy is a web-based tool designed to help students manage and track their grades effectively. It provides visual feedback, dynamic recommendations, and goal-setting features. The tool was created because students often face challenges in tracking their academic progress, leading to confusion about grades and academic goals for classes that do not offer a way to check grades. Current tools lack customization for specific subjects and grading structures, which motivated us to create a more tailored and user-friendly solution!
