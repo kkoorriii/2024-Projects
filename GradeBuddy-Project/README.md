@@ -24,6 +24,11 @@ Back End: Implemented in Python and Django for user authentication, data process
 Database: PostgreSQL database for storing and managing grades and user data. Communicates with the back end using Django's Object-Relational Mapper. 
 
 ----------------------------------------------------------------------------
+**Video Walkthrough**
+
+[![Thumbnail](https://media.licdn.com/dms/image/v2/D562DAQEzfCqgsktJfA/profile-treasury-image-shrink_800_800/B56ZUmYxVFGsAY-/0/1740105782985?e=1741122000&v=beta&t=leIrJBDrhcSXHHkSa15J6okQcfbkhx0NgR1jgQztWWk)](https://drive.google.com/file/d/1o_Ic4HTB9pJ3pne9gYN6-l8dFUI5v5Qk/view?usp=sharing)
+
+----------------------------------------------------------------------------
 **Steps to Launch Everything:**
 
 1. Clone the git repository using the URL
